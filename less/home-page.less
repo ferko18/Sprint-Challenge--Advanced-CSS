@@ -64,7 +64,7 @@
   }
 
   .walk {
-    border: 1px solid red;
+    
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
@@ -96,7 +96,11 @@
       }
      //Firealem Erko *******************************************
       .btn {
-        .button-creator(120px, 40px,#22283A, White, 2rem)
+        .button-creator(120px, 40px,#22283A, White, 2rem);
+        @media @phone {
+          .button-creator(420px, 60px,#22283A, White, 2rem);
+          border-radius: 5px;
+          }
       }
     }
 

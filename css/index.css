@@ -195,6 +195,12 @@ footer {
   text-decoration: none;
   color: black;
 }
+.nav-container .nav .nav-link:hover {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
 .home .intro h2 {
   padding: 15px;
 }

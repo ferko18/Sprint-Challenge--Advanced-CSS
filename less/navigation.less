@@ -1,1 +1,32 @@
-// Navigation code here
+// Navigation code here.container {
+    // .container {
+    //     border: 1px solid pink;
+    //   }
+      
+      .nav-container {
+        .navbarstyle();
+        
+        .logo-heading {
+          font-size: 4rem;
+        }
+        .nav {
+          display: flex;
+          justify-content: space-between;
+          width: 50%;
+          @media @phone {
+            width: 78%;
+         }
+          .nav-link {
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: black;
+            &:hover {
+                background: black;
+                color: white;
+                border-radius: 5px;
+                padding: 3px;
+              }
+          }
+        }
+      }
+      
